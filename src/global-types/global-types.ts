@@ -1,6 +1,8 @@
 export interface IUser {
     id?: number,
     name: string,
+    email: string,
+    password: string,
     img: string,
     jwtToken: string,
     chat: IChat[]
@@ -16,4 +18,13 @@ export interface IChat {
 export interface IMessage{
     id?: number,
     title: string
+}
+
+export const initialUser: IUser = {
+    name: 'New-User',
+    img: 'https://cdn-icons-png.flaticon.com/512/1077/1077114.png',
+    jwtToken: '',
+    chat: [],
+    password: '',
+    email: ''
 }

@@ -1,8 +1,8 @@
 import {createSlice, PayloadAction} from "@reduxjs/toolkit";
-import {IUser} from "../global-types/global-types.ts";
+import {initialUser, IUser} from "../global-types/global-types.ts";
 
 const initialState = {
-    user: <IUser>{}
+    user: <IUser>initialUser
 }
 export const UserSlices = createSlice({
     name: 'User',
@@ -13,3 +13,5 @@ export const UserSlices = createSlice({
         }
     }
 })
+
+export const {actions, reducer} = UserSlices
