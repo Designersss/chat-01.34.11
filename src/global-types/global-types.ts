@@ -10,13 +10,14 @@ export interface IUser {
 
 export interface IChat {
     id?: number
-    userId: number,
+    userId: number | undefined,
+    name: string,
+    img: string
     message: IMessage[]
-    notViewed: IMessage[]
 }
 
 export interface IMessage{
-    id?: number,
+    userId: number | undefined
     title: string
 }
 

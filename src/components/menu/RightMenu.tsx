@@ -42,7 +42,7 @@ const RightMenu = () => {
             </section>
             <div className='scrollbar overflow-y-auto h-[740px]'>
                 {
-                    data ? data.map(el => <UserProfile name={el.name} img={el.img}/>) : <>Никого нету</>
+                    data ? data.map(el => <UserProfile key={el.id} userIdChat={el.chat} userId={el} name={el.name} img={el.img}/>) : <>Никого нету</>
                 }
             </div>
 

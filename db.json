@@ -7,7 +7,27 @@
       "password": "23",
       "jwtToken": "QDer4095",
       "img": "https://img.freepik.com/free-photo/waist-up-portrait-of-handsome-serious-unshaven-male-keeps-hands-together-dressed-in-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=2000",
-      "chat": []
+      "chat": [
+        {
+          "userId": 7,
+          "img": "https://a.lmcdn.ru/img600x866/H/E/HE002EMDGYQ3_7643652_1_v1.jpg",
+          "name": "Денис",
+          "message": [
+            {
+              "userId": 7,
+              "title": "Привет"
+            },
+            {
+              "userId": 1,
+              "title": "О, привет"
+            },
+            {
+              "userId": 7,
+              "title": "Как дела? "
+            }
+          ]
+        }
+      ]
     },
     {
       "email": "213",
@@ -53,6 +73,35 @@
       "name": "213",
       "jwtToken": "JWT-79-ź",
       "id": 6
+    },
+    {
+      "email": "111",
+      "password": "111",
+      "img": "https://a.lmcdn.ru/img600x866/H/E/HE002EMDGYQ3_7643652_1_v1.jpg",
+      "chat": [
+        {
+          "userId": 1,
+          "img": "https://img.freepik.com/free-photo/waist-up-portrait-of-handsome-serious-unshaven-male-keeps-hands-together-dressed-in-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=2000",
+          "name": "Denis",
+          "message": [
+            {
+              "userId": 7,
+              "title": "Привет"
+            },
+            {
+              "userId": 1,
+              "title": "О, привет"
+            },
+            {
+              "userId": 7,
+              "title": "Как дела? "
+            }
+          ]
+        }
+      ],
+      "name": "Денис",
+      "jwtToken": "JWT-43-ǵ",
+      "id": 7
     }
   ]
 }
